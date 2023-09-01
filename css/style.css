@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.header-container {
+  /*  background-color: #1F2937 ; */
+    display: flex;
+    justify-content: space-between;
+    flex: 1;   
+}
+
+ul {
+    display: flex;
+}
+
+.top-container  {
+  display: flex;
+ 
+}  
+
+.top-text-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button {
+    width: 100px;
+    height: auto;
+    flex: 1 0 1 ;
+}
+
+ img {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+    
+ }
+
+.card {
+    border: 5px solid rgb(42, 42, 224);
+    width: 100px;
+    height: 100px;
+ }
+
+ .card-container {
+    display: flex;
+    
+ }
+
+ .third-section {
+    width: 500px;
+ }
