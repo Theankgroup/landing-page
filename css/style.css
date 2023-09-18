@@ -1,73 +1,123 @@
  body  {
     display: flex;
     flex-direction: column;
-    gap: 52px;
-    padding-right: 100px;
-    padding-left: 100px;
-   
+    gap: ;
+   /* padding-right: 150px; 
+    padding-left: 150px; */
+    font-family: "roboto" , sans-serif;
+    margin: 0px;
+    justify-content: center;
+    
     
 }
 
 .header-container {
-  /*  background-color: #1F2937 ; */
+    background-color: #1F2937 ;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    color: #F9FAF8;
+    font-size: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 ul {
     display: flex;
     gap: 16px;
     list-style: none;
+    font-size: 18px;
 }
 
 a { 
     text-decoration: none;
+    color: #E5E7EB;
+
 }
 
 .top-container  {
   display: flex;
-  justify-content: space-between;
+ gap: 10px;
+ padding: 100px;
+ background-color: #1F2937;
+ margin: 0px;
+ 
  
 }  
+
 
 .top-text-container {
     display: flex;
     flex-direction: column;
-    
+    flex-wrap: wrap;   
+    color: #F9FAF8;
+}
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+
 }
 
 #top-button {
-    width: 100px;
-    height: auto;
-    
+    width: 80px;
+    height: auto;  
+    color: #F9FAF8;
+    background-color: #3882F6 ;
+    border-radius: 5px;
 }
+
 .image {
     width: 500px;
     flex: 1;
     max-width: 500px;
+    border-radius: 5px;
 }
+
+.second-section{
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+.second-section p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+ }
 
  img {
     width: 200px;
     height: auto;
     flex: 1;  
+    border-radius: 5px;
  }
 
  .card-container {
     display: flex;
-    gap: 5px;
-    flex-wrap: wrap;   
+    gap: 20px;
+    flex-wrap: wrap;  
+    padding-bottom: 100px;
+    justify-content: space-between;
  }
 
  .card {
     flex: 1;
- }
- .second-section p {
     text-align: center;
-    font-size: 25px;
+    width: 150px;
  }
  
  .third-section {
-    width: 500px;
+    padding: 100px 100px 100px 100px;
+    font-size: 36px;
+    display: flex;
+    font-style:italic;
+    font-weight: lighter;
+    flex-direction: column;
+    background-color: #E5E7EB;
+ }
+ .thor {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
  }
  
