@@ -121,4 +121,35 @@ h1 {
     font-weight: bold;
     align-self: flex-end;
  }
+
+ .bottom-section {
+    color: #F9FAF8;
+    background-color: #3882F6 ;
+    margin: 50px 100px 50px 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+
+ }
+
+ .bottom-text {
+    display: flex;
+    flex-direction: column;
+ }
  
+#bottom-button {
+    height: 40px;
+    width: 100px;
+    align-self: center;
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    
+}
+.footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 40px 40px;
+}
