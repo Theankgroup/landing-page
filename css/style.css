@@ -59,11 +59,12 @@ h1 {
 }
 
 #top-button {
-    width: 80px;
+    align-self: flex-start;
     height: auto;  
     color: #F9FAF8;
     background-color: #3882F6 ;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .image {
